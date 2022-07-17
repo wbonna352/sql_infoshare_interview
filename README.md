@@ -58,8 +58,8 @@ Lista zagadnień SQL:
 ```sql
 SELECT
     EXTRACT(YEAR FROM rental_date) AS year,
-	EXTRACT(MONTH FROM rental_date) AS month,
-	COUNT(*) AS rentals
+    EXTRACT(MONTH FROM rental_date) AS month,
+    COUNT(*) AS rentals
 FROM rental
 WHERE DATE_PART('day', return_date - rental_date) >= 3
 GROUP BY 
