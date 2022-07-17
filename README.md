@@ -1,5 +1,15 @@
 # SQL - Analiza danych
 
+## Baza danych
+
+nazwa: dvdrental
+
+plik: dvdrental.tar
+
+źródło: https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/
+
+instrukcja instalacji: https://www.postgresqltutorial.com/postgresql-getting-started/load-postgresql-sample-database/
+
 ## Zagadnienia
 
 Lista zagadnień SQL:
