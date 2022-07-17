@@ -90,4 +90,6 @@ WHERE f.film_id IN (SELECT i.film_id
                         ON i.inventory_id = r.inventory_id)
 ```
 
+### Praca z bazą danych w Pythonie
 
+> notatnik `python_with_postgres.ipynb`
